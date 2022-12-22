@@ -11,5 +11,10 @@ class TestCalculator(unittest.TestCase):
     self.assertEqual(self.calculator.multiply(2,7), 14)
   def test_divide(self):
     self.assertEqual(self.calculator.divide(4,2), 2)
+  def test_add2(self):
+    self.assertEqual(self.calculator.add(2, 2), 4)
+   def test_add3(self):
+     self.assertEqual(self.calculator.add(2, 4), 6)
+
 if __name__ == "__main__":
   unittest.main()
